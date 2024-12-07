@@ -1,0 +1,6 @@
+#include "subsystems/lift.hpp"
+using namespace okapi;
+
+const int8_t liftPort = 0;
+
+okapi::Motor lift = okapi::Motor(liftPort);
